@@ -1,0 +1,261 @@
+@charset "UTF-8";
+
+header{
+	width: 100%;
+	height: 50px;
+	border-bottom: 2px solie rgba(53, 130, 237, 1);
+} 
+img{
+	image-rendering: -webkit-optimize-contrast;
+}
+
+/* 슬라이더 */
+.slide_sec{
+	width: 80%;
+	item-align: center;
+	margin-bottom: 20px;
+}
+.slick_list{
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.slick_list > div {
+	text-align: left;
+	font-size: 13px;
+	width: 250px;
+}
+.slick_list > div:first-child {
+	font-weight: bold;
+}
+.slick_list > div:last-child {
+	color: grey;
+}
+.slick_list img{
+	margin-right: 50px;
+	border-radius: 5px;
+	width: 250px;
+	height: 250px;
+	margin-bottom: 5px;
+	box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.2),  -5px -5px 10px rgba(0, 0, 0, 0.2);
+}
+.slick_list img:hover {
+	filter: brightness(70%);
+}
+
+
+/* 슬라이더 아래 */
+
+.sec{
+	width: 65%;
+}
+.thumb{
+	width: 40px;
+	border-radius: 5px;
+}
+li > div{
+ 	display: inline-block;
+	margin-right: 10px;
+}
+.chartNav, .noticeNav, .offLineNav{
+	margin-bottom: 20px;
+}
+.chart{
+	height: 300px;
+	text-align: left;
+	padding-top: 30px;
+	border-top: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
+} 
+h2{
+	color: rgba(70, 126, 210, 1);
+	text-align: left;
+	padding-left: 40px;
+	font-weight: normal;
+}
+.chart ul{
+	float: left;
+	text-align: left;
+	width: 33%;
+}
+.chart li{
+	width: 90%;
+	padding: 7px 5px;
+	list-style: none;
+	font-size: 15px;
+	cursor: pointer;
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.title{
+	width: 400px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	padding-left: 10px;
+}
+.title > span:first-child{
+	font-size: 14px;
+	color: rgba(59, 59, 59, 1);
+}
+.title > span:last-child{
+	font-size: 13px;
+	color: rgba(143, 143, 143, 1);
+}
+.count{ 
+	width: 30px;
+	color: grey;
+	font-weight: bold;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.chart li:hover{
+	background-color: rgba(245, 250, 255, 1);
+	border-radius: 20px;
+}
+.notice, offLine{
+	height: 300px;
+  	float: left;  
+	text-align: left;
+	padding-top: 30px;
+	margin-bottom: 60px;
+} 
+.noticeNav > h2{
+	color: rgba(36, 36, 36, 1);
+}
+.noticeNav > div, .chartNav > div, .offLine > div{
+	font-size: 14px;
+	font-weight: lighter;
+	padding-left: 40px;
+	color: rgba(143, 143, 143, 1);
+}
+.notice ul{
+	padding-left: 20px;
+}
+.notice li{
+	font-size: 13px;
+	padding-top: 7px;
+	padding-left: 30px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	text-align: left;
+	list-style: none;
+	background-image: url("../images/music/musicSheet.jpg");
+	width: 350px;
+	height: 30px;
+}
+.notice span:first-child {
+	display: inline-block;
+	width: 170px;
+	font-weight: lighter;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.notice span:last-child {
+	width: 120px;
+	float: right;
+	font-style: italic;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+} 
+.center{
+	text-align: center;
+	width: 100%;
+	height: 400px;
+	padding: 0 20px;
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.offLine{
+	display: inline-block;
+	margin-top: 30px;
+	text-align: left;
+}
+.offLine h2{
+	padding-left: 0;
+}
+.offLine div{
+	padding: 0;
+}
+.offLine ul{
+	padding: 10px;
+	border: 3px solid transparent;
+	border-radius: 10px;
+	background: linear-gradient(white, white) padding-box, linear-gradient(to right, #fbfcb9be, #ffcdf3aa, #65d3ffaa) border-box; 
+	background-size: contain;
+}
+.offLine ul li{
+	margin: 12px;
+	font-size: 14px;
+	font-style: italic;
+	cursor: pointer;
+}
+.offLine ul li:hover span:first-child{
+	color: rgba(56, 56, 56, 1);
+}
+.offLine ul li:hover span:last-child{
+	color: rgba(117, 214, 255, 1);
+}
+.offLine ul li span:first-child {
+	margin-right: 10px;
+	color: rgba(56, 56, 56, 1);
+	font-weight: bold;
+}
+.offLine ul li span:last-child {
+	margin-left: 10px;
+}
+
+@media ( max-width: 1200px ) {
+	.container{
+		display: flex;
+		flex-direction: column;
+	}
+}	
+@media ( max-width: 1023px ) {
+	
+	.chart{
+		height: 660px;
+	}		
+	.chart ul{
+		float: left;
+		text-align: left;
+		width: 100%;
+	}
+	.chart li{
+		width: 90%;
+	}
+	.notice{
+		width: 100%;
+	}
+	.notice li{
+		width: 90%;
+	}
+	.notice span:first-child {
+		width: 60%;
+	}
+	.notice span:last-child {
+		width: 40%;
+	}
+
+@media ( max-width: 767px ) {
+
+	.sec{
+		width: 90%;
+	}	
+	.chart{
+		height: 700px;
+	}	
+	
+}
+
+@media ( max-width: 550px ) {
+	.slide_sec{
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+}	

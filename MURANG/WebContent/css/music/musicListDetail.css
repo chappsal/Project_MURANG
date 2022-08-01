@@ -1,0 +1,205 @@
+@charset "UTF-8";
+
+*{
+	image-rendering: -webkit-optimize-contrast;
+}
+.div_sec{
+	width: 70%;
+}
+.info{
+	display: inline-block;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	text-align: left;
+	width: 100%;
+}
+.thumb{
+	border-radius: 5px;
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin: 0 30px;
+	box-shadow:  5px 5px 14px rgba(0, 0, 0, 0.1),  -5px 0px 14px rgba(0, 0, 0, 0.1);
+}
+.info_div{
+	margin-left: 20px;
+}
+.title{
+	font-size: 35px;
+	font-weight: bold;
+	padding-top: 30px;
+	color: rgba(41, 41, 41, 1);
+}
+.artist{
+	font-size: 23px;
+	padding-top: 5px;
+}
+.type{
+	font-size: 12px;
+	padding-top: 5px;	
+	color: rgba(74, 74, 74, 1);
+}
+.iList{
+	border: 2px solid grey;
+	border-radius: 50%;
+	font-size: 1.5em;
+    width: calc(1em / 0.7);
+    height: calc(1em / 0.7);
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+    color: lightgrey;
+    border-color: lightgrey;
+    text-align: center;
+}
+.iListOn{
+	border: 2px solid grey;
+	border-radius: 50%;
+	font-size: 1.5em;
+    width: calc(1em / 0.7);
+    height: calc(1em / 0.7);
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+    color: #65d3ffaa;
+    border-color: #65d3ffaa;
+    text-align: center;
+}
+.tooltip{
+  display: none;
+  position: absolute;
+  max-width: 200px;
+  border: 1px solid;
+  border-color: rgba(23, 39, 140, 0.7);
+  border-radius: 5px;
+  margin: 10px;
+  padding: 5px;
+  font-size: 0.5em;
+  color: black;
+  background: white;
+}
+.iList:hover .tooltip, .iListOn:hover .tooltip{
+  display: block;
+}
+.inst{
+	margin-top: 100px;
+}
+table{
+	width: 95%;
+	border-collapse: collapse;
+	margin-bottom: 130px;
+}
+td{
+	padding: 8px;
+}
+.thead{
+	height: 30px;
+	color: grey;
+	font-size: 14px;
+}
+.tbody{
+	text-align: left;
+	background: rgba(242, 242, 242, 1);
+
+}
+.tbody td{
+	border-radius: 10px;
+	padding-left: 20px;
+	color: rgba(84, 84, 84, 1);
+}
+button{
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+button > img {
+	width: 22px;
+}
+td > input {
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.totalPrice{
+	width: 100%;
+	height: 100px;
+	left: 0;
+	bottom: 0;
+	position: fixed;
+	font-size: 20px;
+	text-align: right;
+	line-height: 80px;
+	background-color: rgba(255, 255, 255, 0.76);
+ 	box-shadow: 0 7px 20px rgba(237, 237, 237, 1) inset;
+}
+.totalPrice > span{
+	font-size: 35px;
+	margin-right: 100px;
+	margin-left: 15px;
+}
+.addBtn, .payBtn{
+	background-color: rgba(142, 186, 250, 1);
+	border-radius: 15px;
+	padding: 5px 15px;
+	font-size: 15px;
+	font-weight: bold;
+	color: black;
+}
+.payBtn{
+	margin-right: 20%;
+}
+
+@media ( max-width: 767px ) {
+	
+	.info{
+		width: 90%;
+		padding: 0;
+	}
+
+	.inst{
+		margin-top: 40px;
+	}
+}
+
+@media ( max-width: 550px ) {
+	
+	.div_sec{
+		width: 90%;
+	}
+	.info_div{
+		padding: 0;
+		margin: 0;
+	}
+	.thumb{
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+	}
+	.totalPrice > span {
+    	margin-left: 5;
+   		margin-right: 75px;
+	}
+	.payBtn {
+    	margin-right: 10%;
+	}
+	
+}
+
+@media ( max-width: 450px ) {
+	
+	.totalPrice{
+		text-align: center;
+	}
+	
+	.totalPrice > span{	
+		margin-right: 10px;
+	}
+	.addBtn, .payBtn{
+		padding: 5px;
+	}
+}	
+	
+	
