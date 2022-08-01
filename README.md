@@ -55,9 +55,11 @@ MVC Model2
 >- 페이징 처리
 >- 검색 기능
 <br></br>
+<br></br>
 
 ![2022-08-01 22;22;42](https://user-images.githubusercontent.com/90951933/182157755-1849827c-f0e0-44ee-8a24-e5093801dc73.gif)
 > URL을 깔끔히 나타내기 위해 카테고리별로 코드를 부여하였습니다.
+<br></br>
 <br></br>
 
 ### ***곡 상세페이지***
