@@ -56,6 +56,10 @@ MVC Model2
 >- 검색 기능
 <br></br>
 
+![2022-08-01 22;22;42](https://user-images.githubusercontent.com/90951933/182157755-1849827c-f0e0-44ee-8a24-e5093801dc73.gif)
+> URL을 깔끔히 나타내기 위해 카테고리별로 코드를 부여하였습니다.
+<br></br>
+
 ### ***곡 상세페이지***
 ![2022-08-01 21;37;54](https://user-images.githubusercontent.com/90951933/182149640-1b5bb42e-9ca6-453a-b4ad-9a343b70c36b.gif)
 
