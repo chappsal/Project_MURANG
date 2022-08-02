@@ -13,6 +13,16 @@
 
 ![imag_2](https://user-images.githubusercontent.com/90951933/182092260-afa401ba-f8f5-4a49-814c-acf5f7716aa3.jpg)
 
+<br></br>
+
+## 기간
+<ul>
+  <li>2022.04.15-2022.05.06 (3주)</li>
+  <li>3인 팀 프로젝트</li>
+</ul>
+
+<br></br>
+
 ## 개발형식
 MVC Model2
 
