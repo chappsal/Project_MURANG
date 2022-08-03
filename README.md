@@ -125,3 +125,8 @@ MVC Model2
 ![2022-08-01 22;05;15](https://user-images.githubusercontent.com/90951933/182154442-f8e0cf71-5ffb-4c68-8a0b-77a99923315c.gif)
 
 <br></br>
+
+## 개선사항
+<ul>
+  <li>주문처리 검색 기능 보완</li>
+</ul>
