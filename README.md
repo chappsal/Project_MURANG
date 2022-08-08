@@ -88,9 +88,9 @@ MVC Model2
 ### ***곡 상세페이지***
 ![2022-08-01 21;37;54](https://user-images.githubusercontent.com/90951933/182149640-1b5bb42e-9ca6-453a-b4ad-9a343b70c36b.gif)
 
->- JavaScript를 이용하여 선택한 악보 가격 계산
+>- JavaScript를 이용하여 선택 악보 가격 계산
+>- JavaScript를 이용하여 장바구니 , 바로결제 선택시 로그인 여부 확인
 >- 샘플 이미지 확인
->- 장바구니 , 바로결제 선택시 로그인 여부 확인
 
 <br></br>
 
